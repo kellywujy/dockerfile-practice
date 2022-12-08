@@ -1,4 +1,4 @@
 # Author: Kelly Wu
 FROM jupyter/scipy-notebook
 
-RUN conda install --yes docopt-ng==0.8.1
+RUN pip install pandas==1.5.0
