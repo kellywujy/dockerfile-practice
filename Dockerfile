@@ -1,4 +1,4 @@
 # Author: Kelly Wu
 FROM jupyter/scipy-notebook
 
-RUN pip install --yes docopt-ng==0.8.1
+RUN conda install --yes docopt-ng==0.8.1
